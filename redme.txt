@@ -5,4 +5,6 @@ Cal plantejar-nos diverses preguntes:
   - Quin serà el contingut? (com ho hem fet, jo he detectat que en català, no hi ha res de polargraph. fem una web amb instruccions?)
   - Nom? Logo?
   - Quins colors utilitzem? (s'hauria de fer un estudi... mirant les webs qe heu portat... veureu una petita relació)
-  - Imatges de portada??*/
+  - Imatges de portada??
+  - com serà el menú de navegació?
+  - Quins són els principals elements que comprateixen les demès webs?*/
