@@ -21,16 +21,16 @@
   border-style: dotted;
   margin: 10px;
 }
-.menu{
+.nav{
 background:#000000; 
 }
-.menu a{
+.nav a{
 font-size: 20px;
 color: #ffffff;
 text-decoration: none;
 margin: 30px;
 }
-.menu ul{
+.nav ul{
 padding: 20px;
 }
 .nav li{
