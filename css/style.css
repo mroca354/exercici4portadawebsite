@@ -43,6 +43,6 @@ de la web*/
   text-decoration: none; /*decoració text*/
   text-transform: uppercase; /*capitalizació text*/
   font-family: 'Helvetica', sans-serif; /*tipografía text*/
-  border-radius: 25px; /*bordes rodons*/
+  border-radius: 0px; /*bordes rodons*/
   float: right;
   }
