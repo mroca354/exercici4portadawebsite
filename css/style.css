@@ -1,6 +1,16 @@
 .caixa1 {
-  width: 300px;
-  height: 300px;
+  float: left;
+  width: 500px;
+  height: 450px;
+  padding: 10px 12px 14px 16px;
+  border-width: 2px;
+  border-style: dotted;
+  margin: 10px;
+}
+.caixa2 {
+  float: left;
+  width: 500px;
+  height: 450px;
   padding: 10px 12px 14px 16px;
   border-width: 2px;
   border-style: dotted;
@@ -17,3 +27,4 @@ text-decoration: none;
 .menu ul{
 padding: 20px;
 }
+
