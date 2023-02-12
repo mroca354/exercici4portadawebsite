@@ -33,6 +33,21 @@ margin: 30px;
 .menu ul{
 padding: 20px;
 }
+.menu li{
+  display:inline-block;
+  width:10%;
+  padding:5px 10px;
+  background-color:#ea1010;
+  border:1px solid #000;
+  text-align:center;
+  color:#fff;
+}
+/*hover!!!! Aquesta etiqueta és una pseudoclasse, 
+ofereix resposta quant l'usuari interactua amb l'element*/
+nav li:hover{
+  background-color:#fff;
+  color:#000;
+  }
 /*creació d'un botó per enllaçar a altres lloc o a altres llocs 
 de la web*/
 .boto {
