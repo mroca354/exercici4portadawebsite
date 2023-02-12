@@ -32,4 +32,16 @@ margin: 30px;
 .menu ul{
 padding: 20px;
 }
+/*creació d'un botó per enllaçar a altres lloc o a altres llocs 
+de la web*/
+.boto {
+  border: 1px solid #525252; /*amplada, estil i color borde*/
+  padding: 10px; /*espacio al voltant del text*/
+  background-color: #525252; /*color botó*/
+  color: #ffffff; /*color text*/
+  text-decoration: none; /*decoració text*/
+  text-transform: uppercase; /*capitalizació text*/
+  font-family: 'Helvetica', sans-serif; /*tipografía text*/
+  border-radius: 25px; /*bordes rodons*/
 
+  }
