@@ -33,7 +33,7 @@ margin: 30px;
 .menu ul{
 padding: 20px;
 }
-.li{
+.menu li{
   display:inline-block;
   width:10%;
   padding:5px 10px;
@@ -44,7 +44,7 @@ padding: 20px;
 }
 /*hover!!!! Aquesta etiqueta és una pseudoclasse, 
 ofereix resposta quant l'usuari interactua amb l'element*/
-.li:hover{
+.menu li:hover{
   background-color:#fff;
   color:#000;
   }
