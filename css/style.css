@@ -28,7 +28,7 @@ nav a{
     border:#2e518b 1px dashed;
   }   
 .caixa1{
-    background-color: chocolate;
+   /*background-color: chocolate;*/
     width: 300px;
     height: 300px;
     float:left;
