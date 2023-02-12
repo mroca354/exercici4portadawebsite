@@ -4,43 +4,7 @@
   background-color: #d4caca;
   padding: 0px 16px 0px 12px;
 }
-li, ul, ol {
-  list-style:none;
-}
-.nav > li {
-  float:left;
-}
 
-.nav li a {
-  background-color: #d4caca;
-  color: #444242;
-  text-decoration: none;
-  padding: 0px 26px;
-  display: inline-block;
-}
-
-.nav li a:hover {
-  background-color:#878787;
-}
-
-.nav li ul {
-  display:none;
-  position:absolute;
-  min-width:140px;
-}
-
-.nav li:hover > ul {
-  display:block;
-}
-
-.nav li ul li {
-  position:relative;
-}
-
-.nav li ul li ul {
-  right:-140px;
-  top:0px;
-}
 .caixa1 {
     background-color: chocolate;
     width: 300px;
