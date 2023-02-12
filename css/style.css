@@ -1,14 +1,10 @@
-#header {
-  margin: inherit;
-  width: 500px;
-  font-family: monospace;
-}
-.menu{
+
+.caixamenu{
   display: inline-block;
   background-color: #d4caca;
   padding: 0px 16px 0px 12px;
 }
-ul, ol {
+li, ul, ol {
   list-style:none;
 }
 .nav > li {
