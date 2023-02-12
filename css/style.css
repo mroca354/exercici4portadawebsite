@@ -43,5 +43,5 @@ de la web*/
   text-transform: uppercase; /*capitalizació text*/
   font-family: 'Helvetica', sans-serif; /*tipografía text*/
   border-radius: 25px; /*bordes rodons*/
-
+  float: right;
   }
