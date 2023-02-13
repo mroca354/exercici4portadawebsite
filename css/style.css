@@ -1,4 +1,5 @@
 *{margin:0;padding:0;box-sizing:border-box;}
+
 .header{
   width:100%;
   max-width:900px;
@@ -28,60 +29,37 @@
   margin: 10px;
 }
 
-.nav{
-  position:relative;
-  top:100px;
-  margin:auto;
-
+nav { /*estil del quadrat del centre */
+  width: 300px;
+  margin: 100px auto;
+  text-align: center;
 }
-      
-.nav a{
-  text-decoration:none;
-  color:inherit;
-  font-size:14px;
+nav ul {
+list-style: none;
 }
-          
-.nav li{
-  display:inline-block;
-  width:150px;
-  height:30px;
-  padding:5px 10px;
-  border:1px solid #000;
-  text-align:center;
-  background-color:#000;
-  color:#fff;
+nav li { /*també*/
+background-color: rgb(240, 96, 13);
+margin-bottom: 1px; /*això deixa espai entre els buttons i crea l'efecte de les linies*/
+position: relative;
 }
-.nav ul {
-
-  display: flex;
-  padding: 0;
-  margin: 0;
-  list-style: none;
-
+nav a {
+  display: block;
+  padding: 10px;
+  
+  color: black;
+  font-weight: bold;
 }
-/*hover!!!! Aquesta etiqueta és una pseudoclasse, 
-ofereix resposta quant l'usuari interactua amb l'element*/          
-.nav li:hover{
-  background-color:#fff;
-  color:#000;
+nav ul ul { /*Menu deplegable*/
+  display: none;
+  position: absolute;
+  top: 200%;
+  right: -100px;
+  top: -39px;
+  
 }
-          
-.nav li>ul{
-position:absolute;
-left:0px;
-top:30px;
-display:block;
+nav ul li:hover > ul { /*Serveix per crear el menu desplegable */
+display: inherit;
 }
-          
-.nav li>ul{
-  display:none;
-}            
-
-.nav li:hover>ul{
-  display:block;
-}
-
-
 
 /*creació d'un botó per enllaçar a altres lloc o a altres llocs 
 de la web*/
