@@ -1,5 +1,5 @@
-*{margin:0;padding:0;box-sizing:border-box;font-size:0;}
-header{
+*{margin:0;padding:0;box-sizing:border-box;}
+.header{
   width:100%;
   max-width:900px;
   margin:auto;
@@ -28,20 +28,20 @@ header{
   margin: 10px;
 }
 
-nav{
+.nav{
   position:relative;
   top:100px;
   margin:auto;
 
 }
       
-nav a{
+.nav a{
   text-decoration:none;
   color:inherit;
   font-size:14px;
 }
           
-nav li{
+.nav li{
   display:inline-block;
   width:150px;
   height:30px;
@@ -51,25 +51,33 @@ nav li{
   background-color:#000;
   color:#fff;
 }
+.nav ul {
+
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+}
 /*hover!!!! Aquesta etiqueta és una pseudoclasse, 
 ofereix resposta quant l'usuari interactua amb l'element*/          
-nav li:hover{
+.nav li:hover{
   background-color:#fff;
   color:#000;
 }
           
-nav li>ul{
+.nav li>ul{
 position:absolute;
 left:0px;
 top:30px;
 display:block;
 }
           
-nav li>ul{
+.nav li>ul{
   display:none;
 }            
 
-nav li:hover>ul{
+.nav li:hover>ul{
   display:block;
 }
 
