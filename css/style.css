@@ -33,6 +33,39 @@ nav { /*estil del quadrat del centre */
   width: 300px;
   margin: 100px auto;
   text-align: center;
+  nav { /*estil del quadrat del centre */
+  width: 300px;
+  margin: 100px auto;
+  text-align: center;
+  background:#FFFFFF;
+
+}
+nav ul {
+list-style: none;
+}
+nav li { /*també*/
+background-color: rgb(240, 96, 13);
+margin-bottom: 1px; /*això deixa espai entre els buttons i crea l'efecte de les linies*/
+position: relative;
+}
+nav a {
+  display: block;
+  padding: 10px;
+  
+  color: black;
+  font-weight: bold;
+}
+nav ul ul { /*Menu deplegable*/
+  display: none;
+  position: absolute;
+  top: 200%;
+  right: -100px;
+  top: -39px;
+  
+}
+nav ul li:hover > ul { /*Serveix per crear el menu desplegable */
+display: inherit;
+}
 }
 nav ul {
 list-style: none;
