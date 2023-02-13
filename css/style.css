@@ -23,27 +23,58 @@ margin:0;padding:0;box-sizing:border-box;font-size:0;}
   border-style: dotted;
   margin: 10px;
 }
-.nav a{
+header{
+  width:100%;
+  max-width:900px;
+  margin:auto;
+          }
+nav{
+  position:relative;
+  top:100px;
+  margin:auto;
+
+}
+      
+nav a{
   text-decoration:none;
   color:inherit;
   font-size:14px;
-  } 
- .nav li{
+}
+          
+nav li{
   display:inline-block;
-  width:10%;
+  width:150px;
+  height:30px;
   padding:5px 10px;
-  background-color:#000;
   border:1px solid #000;
   text-align:center;
+  background-color:#000;
   color:#fff;
-  }
-
+}
 /*hover!!!! Aquesta etiqueta és una pseudoclasse, 
-ofereix resposta quant l'usuari interactua amb l'element*/
+ofereix resposta quant l'usuari interactua amb l'element*/          
 nav li:hover{
   background-color:#fff;
   color:#000;
-  }
+}
+          
+nav li>ul{
+position:absolute;
+left:0px;
+top:30px;
+display:block;
+}
+          
+nav li>ul{
+  display:none;
+}            
+
+nav li:hover>ul{
+  display:block;
+}
+
+
+
 /*creació d'un botó per enllaçar a altres lloc o a altres llocs 
 de la web*/
 .boto {
