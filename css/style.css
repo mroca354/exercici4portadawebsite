@@ -28,69 +28,50 @@
   border-style: dotted;
   margin: 10px;
 }
-
-nav { /*estil del quadrat del centre */
-  width: 300px;
-  margin: 100px auto;
-  text-align: center;
-  nav { /*estil del quadrat del centre */
-  width: 300px;
-  margin: 100px auto;
-  text-align: center;
-  background:#FFFFFF;
+nav{
+  position:relative;
+  top:100px;
+  margin:auto;
 
 }
+      
+nav a{
+  text-decoration:none;
+  color:inherit;
+  font-size:14px;
+}
+          
+nav li{
+  display:inline-block;
+  width:150px;
+  height:30px;
+  padding:5px 10px;
+  border:1px solid #000;
+  text-align:center;
+  background-color:#000;
+  color:#fff;
+}
+          
+nav li:hover{
+  background-color:#fff;
+  color:#000;
+}
+          
+nav li>ul{
+position:absolute;
+left:0px;
+top:30px;
+display:block;
+}
+          
+nav li>ul{
+  display:none;
+}            
 
-nav li { /*també*/
-background-color:#525252;
-margin-bottom: 1px; /*això deixa espai entre els buttons i crea l'efecte de les linies*/
-position: relative;
+nav li:hover>ul{
+  display:block;
 }
-nav a {
-  display: block;
-  padding: 10px;
-  
-  color: black;
-  font-weight: bold;
-}
-nav ul ul { /*Menu desplegable*/
-  display: none;
-  position: absolute;
-  top: 200%;
-  right: -100px;
-  top: -39px;
-  
-}
-nav ul li:hover > ul { /*Serveix per crear el menu desplegable */
-display: inherit;
-}
-}
-nav ul {
-display: flex;
-}
-nav li { /*també*/
-background-color: #525252;
-margin-bottom: 1px; /*això deixa espai entre els buttons i crea l'efecte de les linies*/
-position: relative;
-}
-nav a {
-  display: block;
-  padding: 10px;
-  
-  color: black;
-  font-weight: bold;
-}
-nav ul ul { /*Menu desplegable*/
-  display: none;
-  position: absolute;
-  top: 200%;
-  right: -100px;
-  top: -39px;
-  
-}
-nav ul li:hover > ul { /*Serveix per crear el menu desplegable */
-display: inherit;
-}
+
 
 /*creació d'un botó per enllaçar a altres lloc o a altres llocs 
 de la web*/
