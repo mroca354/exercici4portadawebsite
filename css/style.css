@@ -40,9 +40,7 @@ nav { /*estil del quadrat del centre */
   background:#FFFFFF;
 
 }
-nav ul {
-list-style: none;
-}
+
 nav li { /*també*/
 background-color:#525252;
 margin-bottom: 1px; /*això deixa espai entre els buttons i crea l'efecte de les linies*/
@@ -55,7 +53,7 @@ nav a {
   color: black;
   font-weight: bold;
 }
-nav ul ul { /*Menu deplegable*/
+nav ul ul { /*Menu desplegable*/
   display: none;
   position: absolute;
   top: 200%;
@@ -68,7 +66,7 @@ display: inherit;
 }
 }
 nav ul {
-list-style: none;
+display: flex;
 }
 nav li { /*també*/
 background-color: #525252;
@@ -82,7 +80,7 @@ nav a {
   color: black;
   font-weight: bold;
 }
-nav ul ul { /*Menu deplegable*/
+nav ul ul { /*Menu desplegable*/
   display: none;
   position: absolute;
   top: 200%;
